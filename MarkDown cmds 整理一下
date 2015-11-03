@@ -1,0 +1,133 @@
+[file]
+	new file		              cmd n
+	open 			              cmd o
+	open recent file		shift cmd o
+	save					      cmd s
+	save as					shift cmd s
+	save all				opt shift s
+	new window				shift cmd n
+	close window			shift cmd w
+	close file				      cmd w
+
+
+[edit]
+undo						  cmd z
+repeat						  cmd y
+undo selection				  cmd u
+past and indent			shift cmd v
+
+	[line]
+	indent					  		cmd ]	
+	unindent				  		cmd [
+	reindent
+	swap line up			   ^    cmd up
+	swap line down			   ^    cmd down
+	Duplicate line			  shift cmd D
+	Delete    line			   ^  shift K
+	join lines 				   		cmd j
+
+	[comment]
+	toggle comment					cmd /
+	toggle block comment			opt cmd /
+
+	[text]
+	insert line before		  shift cmd enter
+	insert line after				cmd enter	
+	Delete word forward				none
+	Delete word Backward			none
+	Delete to end					 ^   k
+`think about Delete lines   	shift ^   k`
+	Delete to beginnig				cmd del
+	Transpose   					ctrl  T  				------how to use?
+
+	[Tag]
+	close Tag 						opt cmd .
+	expand selection to Tag 		shift cmd a
+	wrap selection with Tag 		ctrl cmd w
+
+	[mark]
+	set mark						cmd k cmd Space ------cmd space used to
+change ime
+	这里暂时不写了，以后用到再熟练下
+
+	[code folding]
+	fold 						opt cmd [    
+`think about indent   cmd [/]`
+	unfold						opt cmd ]
+	其余的不写了，等以后需要了再熟悉
+
+	[convert case]
+	Upper case					cmd k cmd u
+	lower case					cmd k cmd l
+	swap case 					none
+ 	
+ 	[special characters]
+ 	opt cmd T  		--------------emoj  hahaha!!!
+
+
+[selection]	
+ 	split into lines 			shift cmd l----选中几行之后，再这样可进入多点编辑模式
+ 	add previos lines 			ctrl  shift  up
+ 	add next  lines  			ctrl  shift  down
+ 	```这两个和mac系统快捷键冲突```
+ 	expand selection to line 	cmd l
+ 	expand selection to word 	cmd d
+ 	expand selection to paragraph   none
+ 	expand selection to scope	shift cmd space
+ 	expand selection to Brackets	ctrl shift M -----important !!!
+ 	expand selection to indentation   shift cmd j ------important,选中有缩进的部分
+ 	expand selection to tag 		  shift cmd a   写网页代码的时候有用，先在用不到标签
+
+
+[Find]
+	find 					  cmd f  只能在当前标签内查找
+	find next				  cmd g
+	find previous		shift cmd g
+	incremental Find 		cmd i     ---什么是递增查找？
+	replace					  opt cmd f
+	replace next 			  opt cmd
+	quick find 				  opt cmd g		这两个不知道有什么区别 ，cmd d 就够了
+	quick find all			  shift cmd g
+	quick add next			  cmd d
+	find in files				shift cmd f  
+
+
+[Goto]
+	GO to anything:		cmd p
+				@ 	to jump to symbols		
+			 	# 	to search within the file
+		  		: 	to go to a line number
+	jump Back 			ctrl -
+	jupm forward 		shift ctrl -
+
+	[switch file ]		
+				opt cmd right/left
+	`think about   ^ tab`其它的用不着
+	或者cmd + 标签号
+	(jump to matching Brackets) 		^ m 	
+	`think about selection in bracket 	^ m shift`
+
+
+[tools]
+	command palette		shift cmd p
+	`think about go to anything  cmd p`
+
+[window]
+	Minimize		cmd m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

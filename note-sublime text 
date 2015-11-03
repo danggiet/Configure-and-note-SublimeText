@@ -1,0 +1,39 @@
+ctrol tab		标签之间切换
+cmd return	shift cmd return 		一行之下开辟新行  之上开辟
+
+	ctrl `		输入sublim.log_commands(true)  可以查看精确的命令名和参数
+	首次安装package control 就要打开工作台 
+
+	所有的字定制数据都保存在sublime text>>preferences>>browse packages>user - 1 					?settings>>user										--2
+	字定制的快捷键绑定文件同样放在上面那个路径里面
+				再来讲下settings  如上 那个settings default 和settings user
+
+				folder／file_exclude_patterns		设置要被忽略的文件or目录
+
+				project里面的设置优先级比user还要高
+
+	安装的包在installed package 可以看到  browse packages中可以看到package control.sublime_settings 文件
+
+	open file  跳过去条回来
+		cmd p   epsid/eps 
+		Type @ 	to jump to symbols		
+			 # 	to search within the file, 
+		and  : 	to go to a line number.
+
+		cm f /alt cmd f
+				在文件内查找 >>>cmd d  依次选中 进行多点编辑
+
+				Try pressing ⇧⌘L to split the selection into lines and ⌘D to select the next occurrence of the selected word. 
+				
+		在一个文件夹内查找  鼠标移动到文件夹上  find in  folder >>>f4 /shift f4
+
+		ctrl -		跳回去！！！ ctrl shift -
+
+
+tab补齐机制  在prefrences key bindings 里面可以看到  默认的补齐列表triggle 是ctrl+space  自己进行修改即可
+auto_complete  在user中可修改auto_complete :true 避免回车自动补全 无法换行
+文件补齐暂时用不着
+
+
+
+						

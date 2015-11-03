@@ -1,0 +1,55 @@
+＃sublime的一些常用操作
+＃＃＃_选择_
+cmd ++/--	缩放字体
+ctrl+/		注释
+cmd n		新建标签页
+ctrl+tab		页面之间跳转
+cmd+j		合并该行和下一行 
+cmd +[/]	代码左右缩进
+cmd+l		选中当前行
+cmd+d		选中一个单词，连按选中多个单词
+
+选中部分文本时	cmd+d,选中所有相同单词，并进入多点编辑
+
+		
+cmd+enter／cmd+shift+enter		在该行下方／上方开辟新行
+
+cmd+z/cmd+y
+
+_快速选中：_
+	optional+鼠标左键拖动	多点编辑
+	esc			跳出多点编辑
+	optional+左右键		每次移动一个单词
+	cmd+左右键		跳至行头行尾
+	加shift			选择
+
+	shift cmd 上下左右
+	shift optional 上下左右
+
+
+###_标签页_
+ctrl+tab	切换标签页
+cmd+k,cmd+b
+cmd+ctrl+p	切换侧边栏显示的工程
+
+cmd+shift+f	find，可在多个文件中查找并同时修改
+cmd+f 		
+
+
+shift cmd p-->reindents lines		调整缩进
+
+上下行互换:	ctrl+cmd+up/down  
+
+
+go to anything:
+		>跳转至指定行： 
+		>直接打开文件
+		选中括号内的内容
+
+
+从光标删至行首	？？？？?
+从光标删至行尾	？？？？？
+选中所有相同文本	？？？？？？
+
+
+
